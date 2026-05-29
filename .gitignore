@@ -1,0 +1,56 @@
+```
+# Directories
+9router/
+OmniRoute/
+claude-code/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py~
+*.py.class
+*.py.backup
+*.py.swp
+*.py.swo
+
+# Build artifacts
+dist/
+build/
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+.env
+.mypy_cache/
+.pytest_cache/
+.coverage
+coverage/
+htmlcov/
+
+# System files
+.DS_Store
+Thumbs.db
+```
