@@ -1,0 +1,1 @@
+Nothing should be ignored based on the provided file changes. The changes include only a markdown file (.md) and a binary/executable file (OmniRoute), where the markdown file is a source/config file that shouldn't be ignored, and there are no build artifacts, dependencies, or temporary files that require ignoring according to the rules.
