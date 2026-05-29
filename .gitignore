@@ -1,56 +1,68 @@
 ```
-# Directories
-9router/
-OmniRoute/
-claude-code/
+# Dependencies
+node_modules/
+.julia/
+zig-cache/
 
-# Logs and temp files
-*.log
-*.tmp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
+# Build artifacts
+dist/
+build/
+target/
+*.o
+*.obj
+*.out
 
 # Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.py~
-*.py.class
-*.py.backup
-*.py.swp
-*.py.swo
-
-# Build artifacts
-dist/
-build/
-*.o
-*.obj
-*.out
-*.exe
-*.dll
-*.so
-*.a
-
-# Dependencies
-node_modules/
-.venv/
+.Python
 venv/
 .env
-.mypy_cache/
-.pytest_cache/
-.coverage
-coverage/
-htmlcov/
+.env.local
+.env.*
 
-# System files
+# Logs
+*.log
+
+# OS
 .DS_Store
 Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
